@@ -1,0 +1,17 @@
+<!-- LISTENERS -->
+<listeners>
+  <listener
+    class-name="br.com.stratus.cx.commons.InvokedMethodListener" />
+  <listener
+    class-name="br.com.stratus.cx.utils.AnnotationTransformer" />
+</listeners>
+
+<!-- MODULOS TESTADOS -->
+<test name="CadastrosTest">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.CadastrosTest">
+		</class>
+	</classes>
+</test>
+
